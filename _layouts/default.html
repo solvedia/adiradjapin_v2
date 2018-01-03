@@ -7,15 +7,15 @@
         <meta name="description" content="{{ site.description }}">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <script src="http://use.typekit.net/ppe4usu.js"></script>
+        <script src="https://use.typekit.net/ppe4usu.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
         <link rel="manifest" href="site.webmanifest">
 
-        <link rel="icon" type="image/png" href="ico/favicon-32x32.png" sizes="32x32" />
-        <link rel="icon" type="image/png" href="ico/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="{{ "/ico/favicon-32x32.png" | relative_url }}" sizes="32x32" />
+        <link rel="icon" type="image/png" href="{{ "/ico/favicon-16x16.png" | relative_url }}" sizes="16x16" />
 
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -24,10 +24,10 @@
 
         {{ content }}
 
-        <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="assets/js/vendor/jquery-3.2.1.min.js"></script>
-        <script src="assets/js/instafeed.min.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="{{ "/assets/js/vendor/modernizr-3.5.0.min.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/vendor/jquery-3.2.1.min.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/instafeed.min.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <!-- <script>
