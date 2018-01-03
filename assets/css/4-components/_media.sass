@@ -1,0 +1,47 @@
+/**
+ *
+ * Media CSS
+ *
+ */
+
+
+.media 
+	margin-top: 10px
+	display: flex
+	align-items: flex-start
+	
+	.number-circle 
+		background: $red
+		display: inline-block
+		padding: 3px
+		color: $white
+		+square(25px)
+		border-radius: 50%
+		
+	.avatar
+		display: inline-block
+		position: relative
+		border-radius: 50%
+		overflow: hidden
+		
+		img 
+			+square(35px)
+
+	.text-muted
+		display: block
+		color: $gray-600
+
+.media-heading
+	margin-top: 0px
+	margin-bottom: 0px
+	display: inline-block
+
+.media-right
+	margin-left: 10px
+	
+.media-left
+	margin-right: 10px
+
+.media-body 
+	flex: 1
+	

@@ -1,0 +1,70 @@
+/**
+ *
+ * Icon Fonts
+ *
+ */
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.woff?17ng9q') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-share2:before {
+  content: "\ea82";
+}
+.icon-google-plus2:before {
+  content: "\ea8c";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-rss:before {
+  content: "\ea9b";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-dribbble:before {
+  content: "\eaa7";
+}
+.icon-behance2:before {
+  content: "\eaa9";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-pinterest:before {
+  content: "\ead1";
+}

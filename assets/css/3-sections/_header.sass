@@ -1,0 +1,59 @@
+/**
+ *
+ * Header style
+ *
+ */
+
+
+.header 
+	padding-top: 25px
+	position: relative
+	height: 95px
+	letter-spacing: .05em
+	+clearfix()
+		
+	.icon-logo 
+		background: $accent
+		padding-top: 25px
+		+size(70px, 95px)
+		position: absolute
+		top: 0px
+		left: 10px
+		
+	span 
+		display: inline-block
+		margin-left: 85px
+		padding-top: 30px
+		text-transform: uppercase
+		font:
+			weight: 600
+		
+	nav
+		float: right
+		font:
+			weight: 600
+			size: 20px
+		padding-top: 25px
+		
+		li 
+			margin-left: 5px
+			
+			i 
+				font-size: 24px
+				vertical-align: middle
+		
+		.shop
+			margin-right: 25px
+			text-transform: capitalize
+			
+		a 
+			color: $black
+			transition: .3s
+			
+			&:hover
+				color: $accent
+
+		
+	@media (max-width: 768px)
+		span 
+			display: none

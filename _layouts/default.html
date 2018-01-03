@@ -1,0 +1,39 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>{{ site.title }}</title>
+        <meta name="description" content="{{ site.description }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <script src="https://use.typekit.net/ppe4usu.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+        <link rel="manifest" href="site.webmanifest">
+
+        <link rel="icon" type="image/png" href="ico/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="ico/favicon-16x16.png" sizes="16x16" />
+
+        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        {{ content }}
+
+        <script src="{{ "/assets/js/vendor/modernizr-3.5.0.min.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/vendor/jquery-3.2.1.min.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/instafeed.min.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <!-- <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+    </body>
+</html>

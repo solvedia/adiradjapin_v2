@@ -1,0 +1,46 @@
+/**
+ *
+ * Utilities CSS
+ *
+ */
+
+
+%small-bold 
+	font:
+		size: 20px
+		weight: 700
+	text-transform: uppercase
+	
+%bg-image
+	background: 
+		repeat: no-repeat, no-repeat
+		size: 50px 50px, cover
+		position: 30px 50px, 50% 50%
+		blend-mode: overlay, normal
+		
+.unstyled
+	+list-unstyled()
+
+.no-p
+	padding: 0px
+	
+.no-m
+	margin: 0px
+	
+.mb-10
+	margin-bottom: 15px
+	
+.pull-right
+	float: right
+	
+.inblock
+	display: inline-block
+	
+.clearfix
+	+clearfix()
+
+.body-copy
+	font-size: 24px
+	line-height: 36px
+	font-family: $font-family-serif
+	font-weight: 500

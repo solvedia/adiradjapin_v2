@@ -1,0 +1,21 @@
+<footer>
+	<div class="container">
+		<p class="footer-menu left">
+			<a href="{{ "/" | relative_url }}">Home</a>
+			<span class="slash">/</span>
+			<a href="{{ "/shop/" | relative_url }}">Shop</a>
+		</p>
+		<p class="footer-menu right">
+			<a href="{{ "/about/" | relative_url }}">About Us</a>
+			<span class="slash">/</span>
+			<a href="{{ "/contact/" | relative_url }}">Contact Us</a>
+		</p>
+		<div class="footer-love">
+			<svg class="icon-bandung">
+				{% include icons/bandung.svg %}
+			</svg>
+			with <i class="icon-heart"></i> from Bandung
+			<small>&copy; copyright 2017 - Adiradjapin | Created by <a href="https://twitter.com/{{ site.twitter_author }}" target="_blank">{{ site.author }}</a></small>
+		</div>
+	</div>
+</footer>
