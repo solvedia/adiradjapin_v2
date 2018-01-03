@@ -86,6 +86,21 @@
 		background: rgba(255, 255, 255, .1)
 		color: $white
 		
+
+.btn-bg-red
+	color: $white
+	padding: 21px 42px
+	text-transform: uppercase
+	font-weight: 600
+	background: $accent
+	cursor: pointer
+	border-radius: 30px
+	transition: background .25s ease
+	
+	&:hover
+		background: darken($accent, 10%)
+		color: $white
+		
 .btn-secondary
 	background: $yellow
 	text-transform: uppercase
@@ -94,6 +109,37 @@
 	&:hover
 		color: $white
 		background: lighten($yellow, 5%)
+		
+.btn-icon
+	background: transparent
+	display: inline-block
+	border-radius: 30px
+	padding: 21px 22px 21px 45px
+	text-transform: uppercase
+	font:
+		weight: 600
+	letter-spacing: .05em
+	color: $white
+	position: relative
+	transition: background .3s
+	
+	[class*=icon-], 
+	[class^=icon-]
+		font:
+			size: 30px
+		position: absolute
+		top: 15px
+		left: 10px
+		transition: .3s
+		
+	&:hover
+		background: $accent-nd
+		color: $white
+	
+		[class*=icon-], 
+		[class^=icon-]
+			transform: scale(.7)
+
 
 .btn-large
 	padding: 21px 36px
@@ -107,11 +153,3 @@
 	font-size: 13px
 	line-height: 1.5
 	border-radius: 3px
-
-.btn [class*=icon-], 
-.btn [class^=icon-]
-	font-size: 20px
-	line-height: 0
-	position: relative
-	top: 2px
-	display: inline
